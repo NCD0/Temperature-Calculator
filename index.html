@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temp Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="aaa">
+        <form onsubmit="Calculator(event)">
+          <h1>Temperature Calculator</h1>
+          <input type="number" name="Number1" id="ava" />
+          <button type="submit">Submit</button>
+        </form>
+        <p class="outputText" id="outputText"></p>
+        <h3>From:</h3>
+        <div class="from">
+          <select name="from" id="zzz">
+            <option value="kelvin">Kelvin</option>
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">fahrenheit</option>
+          </select>
+        </div>
+        <h3>To:</h3>
+        <div class="to">
+          <select name="to" id="zzzz">
+            <option value="kelvin">Kelvin</option>
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">fahrenheit</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
