@@ -31,10 +31,10 @@ body {
 }
 
 .container {
-    display: flex; /* Use flexbox for alignment */
-    width: 100%; /* Full width of the main */
-    justify-content: space-between; /* Space between items */
-    padding: 10px; /* Padding around the items */
+    display: flex; 
+    width: 100%; 
+    justify-content: space-between; 
+    padding: 10px; 
 }
 
 .from, .to, .outputText {
